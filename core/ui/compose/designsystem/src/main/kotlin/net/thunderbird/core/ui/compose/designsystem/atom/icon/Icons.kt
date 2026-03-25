@@ -41,6 +41,8 @@ import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedB
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedBookIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedDescriptionIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedDownloadIcon
+import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedDriveFileMove
+import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedEncrypted
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedFavoriteFolderIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedFingerprintIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedFlowerIcon
@@ -50,6 +52,8 @@ import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedG
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedHearthIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedImageIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedLockIcon
+import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedMarkEmailRead
+import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedMarkEmailUnread
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedOpenInNewIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedPersonIcon
 import net.thunderbird.core.ui.compose.designsystem.atom.icon.outlined.OutlinedPetsIcon
@@ -115,7 +119,9 @@ object Icons {
         val Description: ImageVector = OutlinedDescriptionIcon
         val Drafts: ImageVector = Icons.Outlined.Drafts
         val Download: ImageVector = OutlinedDownloadIcon
+        val DriveFileMove: ImageVector = OutlinedDriveFileMove
 
+        val Encrypted: ImageVector = OutlinedEncrypted
         val ErrorOutline: ImageVector = Icons.Outlined.ErrorOutline
         val ExpandMore: ImageVector = Icons.Outlined.ExpandMore
         val ExpandLess: ImageVector = Icons.Outlined.ExpandLess
@@ -138,6 +144,9 @@ object Icons {
         val KeyboardArrowDown: ImageVector = Icons.Outlined.KeyboardArrowDown
 
         val Lock: ImageVector = OutlinedLockIcon
+
+        val MarkEmailRead: ImageVector = OutlinedMarkEmailRead
+        val MarkEmailUnread: ImageVector = OutlinedMarkEmailUnread
 
         val Menu: ImageVector = Icons.Outlined.Menu
         val MoreVert: ImageVector = Icons.Outlined.MoreVert
